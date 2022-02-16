@@ -10,14 +10,6 @@ branches:
   only:
     - master
 
-before_script:
-  apt-get update -qy
-  apt-get install -y ruby-dev
-  gem install dpl --pre
-  gem install bundler
-  yarn install
-
-
 deploy:
   provider: heroku
   app: initial-klets
