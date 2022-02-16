@@ -4,7 +4,7 @@ node_js:
 
 before_install:
   - npm install -g @angular/cli
-  - gem install ruby -v 2.6
+  - gem install ruby -v 2.6.4
   - gem install faraday -v 1.9.3
   - gem install dpl-heroku -v 1.10.17.travis.6637.6
 
