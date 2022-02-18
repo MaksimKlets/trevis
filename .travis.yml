@@ -17,5 +17,4 @@ branches:
 deploy:
   provider: heroku
   app: initial-klets
-  api_key:
-    secure: "1af0d7eb-bab4-41da-b68c-db438b252c69"
+  api_key: "1af0d7eb-bab4-41da-b68c-db438b252c69"
